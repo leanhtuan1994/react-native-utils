@@ -9,17 +9,7 @@
   "source": "src/index",
   "files": [
     "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "zkuzan-utils.podspec",
-    "!lib/typescript/example",
-    "!android/build",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
+    "lib"
   ],
   "scripts": {
     "test": "jest",
@@ -33,19 +23,15 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "utils"
   ],
-  "repository": "https://github.com/leanhtuan1994/zkuzan-utils",
-  "author": "ZKuzan <leanhtuanptithcm@gmail.com> (https://github.com/leanhtuan1994)",
+  "repository": "https://github.com/leanhtuan1994/react-native-utils",
+  "author": "ZKuzan (https://github.com/leanhtuan1994)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leanhtuan1994/zkuzan-utils/issues"
+    "url": "https://github.com/leanhtuan1994/eact-native-utils/issues"
   },
-  "homepage": "https://github.com/leanhtuan1994/zkuzan-utils#readme",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "homepage": "https://github.com/leanhtuan1994/react-native-utils#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
