@@ -68,6 +68,9 @@
       "pre-commit": "yarn lint && yarn typescript"
     }
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "eslintConfig": {
     "root": true,
     "extends": [
