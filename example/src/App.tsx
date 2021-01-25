@@ -1,18 +1,14 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import Utils from '@zkuzan/utils';
+import { KeyboardContainer } from '@zkuzan/utils';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    Utils.multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <KeyboardContainer>
+        <Text />
+      </KeyboardContainer>
     </View>
   );
 }
