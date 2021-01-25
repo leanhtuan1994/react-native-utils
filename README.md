@@ -1,11 +1,13 @@
 # @zkuzan/utils
 
-utils
-
 ## Installation
 
 ```sh
 npm install @zkuzan/utils
+
+or 
+
+yarn add @zkuzan/utils
 ```
 
 ## Usage
