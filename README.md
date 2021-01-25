@@ -1,19 +1,19 @@
-# @zkuzan/utils
+# zkuzan-utils
 
 ## Installation
 
 ```sh
-npm install @zkuzan/utils
+npm install zkuzan-utils
 
 or 
 
-yarn add @zkuzan/utils
+yarn add zkuzan-utils
 ```
 
 ## Usage
 
 ```js
-import Utils from "@zkuzan/utils";
+import Utils from "zkuzan-utils";
 
 // ...
 

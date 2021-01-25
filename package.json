@@ -1,5 +1,5 @@
 {
-  "name": "@zkuzan/utils",
+  "name": "zkuzan-utils",
   "version": "0.1.0",
   "description": "utils",
   "main": "lib/commonjs/index",
